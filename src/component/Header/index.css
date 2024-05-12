@@ -1,0 +1,56 @@
+.header-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  background-size: cover;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-bottom: solid 1px lightgray;
+}
+
+.header-heading-tag-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(50% - (desired_width_of_content / 2));
+}
+.header-heading {
+  font-weight: bold;
+}
+
+.header-logo {
+  height: 25px;
+}
+.header-icons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 25px;
+}
+
+.header-icons {
+  margin: 12px;
+  font-size: 25px;
+}
+
+.header-language-option {
+  border: solid 0px;
+  font-weight: bold;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.nab-tab-text {
+  margin: 20px;
+  font-weight: bold;
+}
+
+.margin-top {
+  margin-top: 30px;
+}

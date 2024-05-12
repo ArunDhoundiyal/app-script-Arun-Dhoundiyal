@@ -1,0 +1,45 @@
+.item-card-container {
+  height: 500px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 12px;
+}
+
+.product-img {
+  height: 250px;
+  width: 200px;
+  align-self: center;
+}
+
+.product-heading {
+  font-size: 20px;
+}
+
+.product-paragraph {
+  color: #828282;
+}
+
+.title-toggle-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.toggle-button {
+  background-color: transparent;
+  border: solid 0px;
+}
+
+.heart-icon {
+  font-size: 30px;
+}
+
+.toggle-icon {
+  font-size: 25px;
+}
+
+.toggle-icon-color {
+  color: red;
+}

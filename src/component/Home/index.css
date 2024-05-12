@@ -1,0 +1,52 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  background-color: cover;
+}
+
+.heading-group-container {
+  align-self: center;
+  text-align: center;
+}
+
+.group-heading {
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 100;
+  font-size: 35px;
+}
+
+.group-paragraph {
+  font-family: "Gill Sans", sans-serif;
+  font-weight: 100;
+}
+
+.item-filter-recommend-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: solid 1px lightgray;
+}
+
+.hide-button {
+  border: solid 0px;
+  background-color: transparent;
+  margin-left: 40px;
+}
+.hide-item-container {
+  display: flex;
+}
+.select-category {
+  border: solid 0px;
+  text-align: right;
+  font-weight: bold;
+  outline: none;
+}
+.items-count {
+  font-weight: bold;
+}
+.product-card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
